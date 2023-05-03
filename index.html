@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  
+<head>
+  <title>Suggest Meals</title>
+  <link rel="stylesheet" href="stylee.css">
+  <link rel="icon" href="./صحي.jpg">
+</head>
+
+<body>
+  <div class="parent">
+    <div class="div_form">
+      <form>
+
+        <span class="text-center">System Food</span>
+
+        <div class="input">
+          <input type="number" id="calories" min="0" required="" />
+          <label>Your calories</label>
+        </div>
+
+        <br>
+
+        <div class="input">
+          <input type="number" id="mealsNum" min="0" max="10" required="" />
+          <label>The number of meals :</label>
+        </div>
+
+        <br>
+
+        <div class="input">
+          <input type="text" id="allergy" required="" />
+          <label>The food don't want :</label>
+        </div>
+
+        <div class="div_button">
+          <button type="button" class="btn" id="btn1" role="button" onclick="meals ()"> suggest Meals</button>
+        </div>
+
+        <div class="result">
+          <p id="r1">egg milk</p>
+        </div>
+
+        
+      </form>
+    </div>
+  </div>
+  <div id="result"></div>
+
+  <!-- <div class="parent">
+
+    <h1> System food </h1>
+    <br>
+    <br>
+    
+      <form>
+
+        <div class="input">
+          <label for="calories">The number of calories : </label>
+          <input type="number" id="calories" name="calories" required >
+          <br>
+          <br>
+          <label for="mealsNum">The number of meals : </label>
+          <input type="number" id="mealsNum" name="mealsNum">
+        </div>
+
+        <br>
+        <br>
+
+        <div class="div_button">
+
+          <button type="button" id="btn1" onclick="meals()">suggest Meals</button>
+        </div>
+
+        <div class="result">
+          <p id="r1">egg milk</p>
+        </div>
+
+    </div>
+    </form>
+  </div>
+  <div id="result"></div>
+  -->
+
+
+  <script src="scriptt.js"></script>
+</body>
+
+</html>
